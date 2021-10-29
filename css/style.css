@@ -52,8 +52,8 @@ body{
  }
 
  .card header{
-    background: #288088;
     border: 2px solid #45ADAD;
+    background: #288088;
     border-radius: 7px 7px 0 0;
     padding: 20px 0;
     z-index:10;
@@ -138,8 +138,18 @@ body{
         flex-flow: row;
     }
 
-    /* .card{
-        border: 
-    } */
+    .card{
+        border: 2px solid #45ADDD;
+        flex-basis: 250px;
+    }
+
+    .pricing li:nth-child(even):after{
+        content: "\1F44D";
+    }
+
+    .pricing li:nth-child(odd):before{
+        content: "\1F44D";
+    }
+
 }
 
